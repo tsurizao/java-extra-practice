@@ -27,7 +27,7 @@ public class Dish {
         this.wouldRecommend = wouldRecommend;
     }
 
-    public Dish (){
+    public Dish() {
     }
 
     public Dish(int costInCents, String nameOfDish, boolean wouldRecommend) {
