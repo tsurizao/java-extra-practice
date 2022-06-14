@@ -9,7 +9,9 @@ public class VehicleTest {
         car.setName("Chevelle");
         car.getName();
         car.makeNoise();
-        Motorcycle moto = new Motorcycle();
-        moto.makeNoise();
+        Motorcycle motorcycle = new Motorcycle();
+        motorcycle.makeNoise();
+        Clunker clunker = new Clunker();
+        clunker.breakingDownNoise();
     }
 }
