@@ -1,3 +1,7 @@
+package vehicle;
+
+import vehicle.Car;
+
 public class VehicleTest {
 
     public static void main(String[] args) {
@@ -5,5 +9,7 @@ public class VehicleTest {
         car.setName("Chevelle");
         car.getName();
         car.makeNoise();
+        Motorcycle moto = new Motorcycle();
+        moto.makeNoise();
     }
 }
