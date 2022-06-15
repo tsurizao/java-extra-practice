@@ -17,7 +17,7 @@ public class Clunker extends Vehicle {
     }
 
     public void breakingDownNoise() {
-        super.makeNoise();
+        makeNoise();
         System.out.println("clunk clank, pfffft");
     }
 }
