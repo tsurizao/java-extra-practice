@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 //6. Create a PetDog class that inherits from Pet.
 public class PetDog extends Pet implements Companion {
 
@@ -25,5 +27,12 @@ public class PetDog extends Pet implements Companion {
 
     public String snuggle() {
         return getName() + " wants to snuggle.";
+    }
+
+    //12b. In your PetDog class, create a static method named allSnuggle. It should accept an ArrayList of PetDog objects and output the result of calling the snuggle method on all of them. Create an ArrayList with at least three PetDog instances in the PetDogTest class. Call the allSnuggle method and pass it the ArrayList. Verify that the allSnuggle method works correctly.
+    public static void allSnuggle(ArrayList<PetDog> dogsList) {
+        for (PetDog petDog : dogsList) {
+            System.out.println(petDog.snuggle());
+        }
     }
 }
