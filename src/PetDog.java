@@ -1,5 +1,5 @@
 //6. Create a PetDog class that inherits from Pet.
-public class PetDog extends Pet {
+public class PetDog extends Pet implements Companion {
 
     //    7. In PetDog, create a boolean instance variable, trained.
     private boolean trained;
@@ -21,5 +21,9 @@ public class PetDog extends Pet {
     //9. Write an instance method in PetDog  called isTrained that returns the boolean value of the trained property.
     public boolean isTrained() {
         return trained;
+    }
+
+    public String snuggle() {
+        return getName() + " wants to snuggle.";
     }
 }

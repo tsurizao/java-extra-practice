@@ -16,6 +16,7 @@ public class Practice {
 
         PetDog sammy = new PetDog("Mimi", "Miniature Schnauzer", true);
         System.out.println(sammy.getName() + " is a " + sammy.getType() + " and it is " + sammy.isTrained() + " that it is trained.");
+        System.out.println(sammy.snuggle());
     }
 
     //2. Create a public static method in the Practice class called *subtractTen* that takes one integer argument and returns that number minus 10.
