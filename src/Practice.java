@@ -9,8 +9,7 @@ public class Practice {
         System.out.println("Expected 2: " + subtractTen(12));
 
         //3
-        int[] myIntArray = new int[]{5, 7, 2, 23, 13};
-        System.out.println("Expected 10.0: " + average(myIntArray));
+        System.out.println("Expected 10.0: " + average(new int[]{2, 5, 7, 13, 23}));
 
         //4 & 5
         Pet pet = new Pet("Polly", "Parakeet");
