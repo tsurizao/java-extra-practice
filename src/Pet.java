@@ -1,9 +1,9 @@
-//4. Create a class called Pet with two String instance variables, name and type.
+//4 Create a class called Pet with two String instance variables, name and type.
 public class Pet {
     private String name;
     private String type;
 
-    //    5. Create getters and setters for the properties as well as a constructor that takes two strings and sets the name and type.
+    //5 Create getters and setters for the properties as well as a constructor that takes two strings and sets the name and type.
     public Pet() {
     }
 

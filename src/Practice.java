@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-// 1. Create a class called Practice with a main method.
+//1 Create a class called Practice with a main method.
 public class Practice {
     public static void main(String[] args) {
         //exercise tests
@@ -37,15 +37,15 @@ public class Practice {
     }
 
     //3. Create a public static method *average* in the Practice class that takes an array of integers and returns their average as a double.
-    public static double average(int[] array) {
+    public static double average(int[] numbersArray) {
         double total = 0;
-        for (int arrNum : array) {
-            total += arrNum;
+        for (int number : numbersArray) {
+            total += number;
         }
-        return total / array.length;
+        return total / numbersArray.length;
     }
 
-    //    12. In your Practice class, create a static method named multiplyAll. It should accept an integer and an ArrayList of integers. It should take the ArrayList argument and multiply all its elements by the value of the integer argument.
+    //12. In your Practice class, create a static method named multiplyAll. It should accept an integer and an ArrayList of integers. It should take the ArrayList argument and multiply all its elements by the value of the integer argument.
     public static ArrayList<Integer> multiplyAll(int num, ArrayList<Integer> arrList) {
         arrList.replaceAll(integer -> integer * num);
         return arrList;
