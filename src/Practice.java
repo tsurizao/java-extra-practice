@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 //1 Create a class called Practice with a main method.
 public class Practice {
@@ -21,13 +22,7 @@ public class Practice {
         System.out.println(sammy.snuggle());
 
         //12
-        ArrayList<Integer> arrList = new ArrayList<Integer>();
-        arrList.add(5);
-        arrList.add(6);
-        arrList.add(7);
-        arrList.add(8);
-        arrList.add(9);
-        System.out.println("Expected output 15, 18, 21, 24, 27: " + multiplyAll(3, arrList));
+        System.out.println("Expected output 15, 18, 21, 24, 27: " + multiplyAll(3, new ArrayList<>(List.of(5, 6, 7, 8, 9))));
     }
 
     //2. Create a public static method in the Practice class called *subtractTen* that takes one integer argument and returns that number minus 10.
