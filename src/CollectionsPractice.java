@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class HashmapPractice {
+public class CollectionsPractice {
     public static void main(String[] args) {
         HashMap<String, String> usernames = new HashMap<>();
         usernames.put("Chase", "tsurizao");
